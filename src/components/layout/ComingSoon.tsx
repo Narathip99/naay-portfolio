@@ -6,7 +6,7 @@ const ComingSoon: React.FC = () => {
       <div className="text-center">
         <h1 className="text-6xl font-bold mb-4">Coming Soon</h1>
         <p className="text-xl">
-          I'm currently working on this page. Please check back later!
+          I'm currently working on this page. Please check back later🙏
         </p>
       </div>
     </div>
