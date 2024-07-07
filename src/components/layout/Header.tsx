@@ -16,10 +16,10 @@ const Header: React.FC = () => {
         <nav className="hidden sm:block"></nav>
 
         <Button
-          to="https://drive.google.com/file/d/1LfalhM6piPuyRQ9lfKFi9zv5q-AU6zaq/view?usp=sharing"
+          to="https://drive.google.com/file/d/1IG7Nv0Xq8omybZvsraMiIZROfLCjYmfc/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden sm:flex sm:gap-2 sm:items-center"
+          className="hidden sm:flex sm:gap-2 sm:items-center border-2 border-black box-border hover:bg-transparent hover:text-black hover:border-2 hover:border-black"
         >
           <span className="text-lg font-medium">Resume</span>
           <Download className="w-4 h-4" strokeWidth={3} />
