@@ -31,7 +31,7 @@ const projects = [
 
 const Projects: React.FC = () => {
   return (
-    <section className="py-16 bg-black text-white">
+    <section id="projects" className="py-16 bg-black text-white">
       <div className="container mx-auto px-4">
         <h1 className="text-5xl text-center font-medium mb-16">
           My <span className="font-bold">Projects</span>
@@ -67,6 +67,9 @@ const Projects: React.FC = () => {
               </div>
             </div>
           ))}
+          <div className="flex justify-center items-center">
+            <Link to="all-projects" className="text-2xl font-medium border-b-2 pb-1">All Projects</Link>
+          </div>
         </div>
       </div>
     </section>

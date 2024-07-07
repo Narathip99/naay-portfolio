@@ -3,7 +3,7 @@ import aboutMe from "../../assets/images/about-me.png";
 
 const AboutMe: React.FC = () => {
   return (
-    <section className="container mx-auto py-16 grid gap-8 grid-cols-1 md:grid-cols-12">
+    <section id="about-me" className="container mx-auto py-16 grid gap-8 grid-cols-1 md:grid-cols-12">
       <figure className="col-span-1 md:col-span-4 flex justify-center">
         <img
           src={aboutMe}
