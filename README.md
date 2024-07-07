@@ -2,6 +2,9 @@
 
 Welcome to my portfolio! This project showcases my skills and experience as a Fullstack Developer. Here you'll find information about my background, skills, and projects I have worked on.
 
+## View My Portfolio
+Check out my deployed portfolio [here](https://narathip.xyz/).
+
 ## Contact
 - **Email**: narathip.tk@gmail.com
 - **GitHub**: [github.com/yourusername](https://github.com/yourusername)
