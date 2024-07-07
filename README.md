@@ -1,4 +1,4 @@
-# Narathip Thakham Portfolio
+# Narathip Portfolio
 
 Welcome to my portfolio! This project showcases my skills and experience as a Fullstack Developer. Here you'll find information about my background, skills, and projects I have worked on.
 
