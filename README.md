@@ -10,5 +10,5 @@ Check out my deployed portfolio [here](https://narathip.xyz/).
 - **GitHub**: [github.com/Narathip99](https://github.com/Narathip99)
 - **LinkedIn**: [linkedin.com/in/narathip-tk](https://www.linkedin.com/in/narathip-tk/)
 
-## Credits
+## Credit
 Design inspired by [Jhanvi Shah's Figma Template](https://www.figma.com/community/file/1318529372146880502/illustration-based-portfolio-website-template?searchSessionId=lybakuga-6gddtq74e4u)
