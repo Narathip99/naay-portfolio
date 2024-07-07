@@ -40,8 +40,8 @@ const skills = [
 
 const Skills: React.FC = () => {
   return (
-    <section className="container mx-auto py-12">
-      <h1 className="text-4xl text-center font-medium mb-12">
+    <section className="container mx-auto py-16">
+      <h1 className="text-5xl text-center font-medium mb-12">
         My <span className="font-bold">Skills</span>
       </h1>
 

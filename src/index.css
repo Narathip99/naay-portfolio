@@ -13,6 +13,7 @@ h6 {
 
 body {
   @apply font-sans;
+  @apply text-lg
 }
 
 @layer utilities {

@@ -1,8 +1,8 @@
 import React from "react";
 // components
 import Button from "../../components/ui/Button";
-// icons and img
-import heroBaner from "../../assets/images/hero-banner.png";
+// icons and images
+import heroBanner from "../../assets/images/hero-banner.png";
 import iconGithub from "../../assets/icons/icon-github.svg";
 import iconLinkedin from "../../assets/icons/icon-linkedin-in.svg";
 import iconPhone from "../../assets/icons/icon-phone-solid.svg";
@@ -25,13 +25,11 @@ const HeroBaner: React.FC = () => {
             <h1>
               Hi, I am <span className="font-bold">Narathip Thakham.</span>
             </h1>
-
             <h1 className="my-4">
               <span className="text-6xl md:text-7xl font-bold font-outline">
                 Fullstack Developer
               </span>
             </h1>
-
             <h1>
               based in <span className="font-bold">Phrae, Thailand.</span>
             </h1>
@@ -42,12 +40,16 @@ const HeroBaner: React.FC = () => {
             proactive problem-solving approach and a love for technology.
             Experienced in various projects, I bring dedication and strong
             skills to every task. Eager to apply my knowledge and drive
-            innovation in the tech industry. while continuously learning and
+            innovation in the tech industry while continuously learning and
             growing to meet new challenges.
           </p>
         </div>
 
-        <img src={heroBaner} alt="" className="hidden lg:block w-1/2" />
+        <img
+          src={heroBanner}
+          alt="Hero Banner"
+          className="hidden lg:block w-1/2"
+        />
 
         <div className="mt-12 lg:absolute lg:-bottom-16 2xl:-bottom-6 left-0">
           <div className="flex gap-4">
@@ -59,7 +61,7 @@ const HeroBaner: React.FC = () => {
             >
               <img
                 src={iconGithub}
-                alt=""
+                alt="GitHub"
                 className="w-6 h-6 transition-transform duration-300 ease-in-out group-hover:invert"
               />
             </Button>
@@ -71,7 +73,7 @@ const HeroBaner: React.FC = () => {
             >
               <img
                 src={iconLinkedin}
-                alt=""
+                alt="LinkedIn"
                 className="w-6 h-6 transition-transform duration-300 ease-in-out group-hover:invert"
               />
             </Button>
@@ -81,7 +83,7 @@ const HeroBaner: React.FC = () => {
             >
               <img
                 src={iconPhone}
-                alt=""
+                alt="Phone"
                 className="w-6 h-6 transition-transform duration-300 ease-in-out group-hover:invert"
               />
             </Button>
@@ -91,7 +93,7 @@ const HeroBaner: React.FC = () => {
             >
               <img
                 src={iconEnvelope}
-                alt=""
+                alt="Mail"
                 className="w-6 h-6 transition-transform duration-300 ease-in-out group-hover:invert"
               />
             </Button>
