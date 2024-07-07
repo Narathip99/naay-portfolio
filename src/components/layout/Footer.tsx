@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
+  const handlePhoneClick = () => {
+    window.location.href = "tel:0924617473";
+  };
+
   return (
     <footer className="bg-black text-white">
       <div className="container py-8 xl:py-16 xl:pb-24 flex gap-8 flex-col sm:flex-row items-start sm:items-end justify-between">
@@ -19,7 +23,7 @@ const Footer: React.FC = () => {
               rel="noopener noreferrer"
               to="https://github.com/Narathip99"
             >
-              github
+              Github
             </Link>
           </li>
           <li>
@@ -30,6 +34,9 @@ const Footer: React.FC = () => {
             >
               Linked In
             </Link>
+          </li>
+          <li>
+            <button onClick={handlePhoneClick}>Phone</button>
           </li>
         </ul>
       </div>
