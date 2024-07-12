@@ -1,35 +1,11 @@
 import React from "react";
 import { SquareArrowOutUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
-
-const projects = [
-  {
-    id: 1,
-    title: "Mutayloo Project E-Commerce",
-    description:
-      "Utilized the MERN stack (MongoDB, Express.js, React, Node.js) for the development. Emphasized clean code practices to facilitate team collaboration and easy maintenance. Collaborated with a team of 4 developers, holding regular scrum meetings and using version control with Git to ensure smooth integration of code.",
-    image: "https://via.placeholder.com/1920x1080",
-    link: "https://mutayloo.com/",
-  },
-  {
-    id: 2,
-    title: "Project Performance Reporting",
-    description:
-      "Developed a web-based system for reporting project performance following the PDCA model. Awarded 2nd runner-up, gold medal level for software innovation and embedded systems.",
-    image: "https://via.placeholder.com/1920x1080",
-    link: "#",
-  },
-  {
-    id: 3,
-    title: "Activity Management System",
-    description:
-      "Developed a web system for managing activities, allowing students to view participation percentages and submit activities. Provided teachers with tools to check attendance and review submitted activities for their students.",
-    image: "https://via.placeholder.com/1920x1080",
-    link: "#",
-  },
-];
+import projectData, { Project } from "../../data/projectData";
 
 const Projects: React.FC = () => {
+  const projects: Project[] = projectData;
+
   return (
     <section id="projects" className="py-16 bg-black text-white">
       <div className="container mx-auto px-4">
@@ -38,17 +14,17 @@ const Projects: React.FC = () => {
         </h1>
 
         <div className="flex flex-col gap-32">
-          {projects.map((project) => (
+          {projects.map((project: Project) => (
             <div
               key={project.id}
-              className={`flex flex-col gap-8 ${
+              className={`flex flex-col gap-16 ${
                 project.id % 2 === 0 ? "lg:flex-row-reverse" : "lg:flex-row"
               }`}
             >
               <article className="w-full lg:w-1/2 rounded-md overflow-hidden">
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={`Project image of ${project.title}`}
                   className="w-full h-auto max-h-[400px] object-cover"
                 />
               </article>
@@ -68,7 +44,12 @@ const Projects: React.FC = () => {
             </div>
           ))}
           <div className="flex justify-center items-center">
-            <Link to="all-projects" className="text-2xl font-medium border-b-2 pb-1">All Projects</Link>
+            <Link
+              to="all-projects"
+              className="text-2xl font-medium border-b-2 pb-1"
+            >
+              All Projects
+            </Link>
           </div>
         </div>
       </div>
