@@ -25,7 +25,7 @@ const experience = [
     icon: iconVersatileHaus,
     duration: "Feb 2022 - Oct 2022",
     description:
-      "Conducted manual testing, including end user and Black Box Testing. Identified, documented, and tracked software defects and inconsistencies.",
+      "Performed manual testing, including end-user and Black Box Testing, Identified, documented, and tracked software defects and inconsistencies.",
   },
 ];
 
