@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
               to="all-projects"
               className="text-2xl font-medium border-b-2 pb-1"
             >
-              All Projects
+              See all projects
             </Link>
           </div>
         </div>
