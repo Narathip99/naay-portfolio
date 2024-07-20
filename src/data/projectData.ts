@@ -6,7 +6,8 @@ export interface Project {
   link: string;
 }
 
-import pdcaImg from "../assets/images/pdca-1.png";
+import mutaylooImg from "../assets/images/mutayloo.png";
+import pdcaImg from "../assets/images/pdca.png";
 import amsImg from "../assets/images/ams-morning-act.png";
 
 const projectsData: Project[] = [
@@ -15,8 +16,8 @@ const projectsData: Project[] = [
     title: "Mutayloo Project E-Commerce",
     description:
       "Utilized the MERN stack (MongoDB, Express.js, React, Node.js) for the development. Emphasized clean code practices to facilitate team collaboration and easy maintenance. Collaborated with a team of 4 developers, holding regular scrum meetings and using version control with Git to ensure smooth integration of code.",
-    image: "https://via.placeholder.com/1920x1080",
-    link: "https://mutayloo.com/",
+    image: mutaylooImg,
+    link: "#",
   },
   {
     id: 2,
