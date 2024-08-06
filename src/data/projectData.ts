@@ -49,7 +49,7 @@ const projectsData: Project[] = [
   },
   {
     id: 5,
-    title: "Aniblyat",
+    title: "Anime Info",
     description:
       "Developed a website that provides detailed information about anime for the current season, including airing schedules with countdowns to the next episode. Users can view which anime are airing this season and what's coming up in the next season. By clicking on more details, users can see additional information about each anime. The data is fetched from the AniList API using GraphQL to manage the API requests.",
     image: aniblyat,
